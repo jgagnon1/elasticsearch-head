@@ -394,6 +394,34 @@ SPAN.jsonPretty-boolean { color: purple; }
 }
 
 /* es.ui.ClusterOverview */
+.uiToolbar{
+	position: fixed;
+	width: 100%;
+	z-index: 8;
+}
+.clusterOverview-cluster-details {
+	padding-top: 105px;
+}
+.clusterOverview-cluster-divheader {
+	padding-top: 34px;
+}
+.clusterOverview-cluster-tableheader thead {
+	background-color: white;
+	z-index: 7;
+	opacity: 0.9;
+}
+.clusterOverview-cluster-header th {
+	width: 120px;
+}
+.uiToolbar ui-right {
+	padding-right: 20px;
+}
+.clusterOverview-table {
+	padding-top:1px;
+}
+.clusterOverview-cluster thead{
+	position: fixed;
+}
 .clusterOverview-cluster {
 	border-collapse: collapse;
 }
@@ -401,6 +429,10 @@ SPAN.jsonPretty-boolean { color: purple; }
 .clusterOverview-cluster TD {
 	vertical-align: top;
 	padding: 2px 10px;
+}
+.clusterOverview-cluster th, .clusterOverview-cluster td {
+   max-width: 150px;
+   min-width: 150px;
 }
 .clusterOverview TH {
 	font-weight: normal;
@@ -425,6 +457,8 @@ SPAN.jsonPretty-boolean { color: purple; }
 .clusterOverview-title {
 	font-weight: bold;
 	font-size: 140%;
+	word-wrap: break-word;
+	
 }
 .clusterOverview-routing {
 	position: relative;
